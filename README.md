@@ -367,6 +367,28 @@ Edit `%APPDATA%\Claude\claude_desktop_config.json` (Windows) or `~/Library/Appli
 
 Restart Claude Desktop. The hammer icon (🔨) appears when tools are available.
 
+### Claude Code
+
+Add the following configuration to your Claude Code settings:
+
+```json
+{
+  "mcpServers": {
+    "my-local-server": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://localhost:8080/mcp"
+      ]
+    }
+  },
+  "preferences": {
+    "sidebarMode": "chat",
+    "coworkScheduledTasksEnabled": false
+  }
+}
+```
+
 **Example prompts to try in Claude Desktop:**
 - *"Run `mvn --version` in `C:\path\to\week19-dev-mcp-server`"* → calls `runBuildTool`, shows progress
 - *"Read the project://readme resource"* → reads README.md via MCP resource
