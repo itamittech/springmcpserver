@@ -1,0 +1,14 @@
+target/
+*.class
+*.jar
+*.war
+
+.env
+.env.*
+
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+*.log

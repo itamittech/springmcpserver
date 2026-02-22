@@ -13,9 +13,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>week19-dev-mcp-server</artifactId>
+    <artifactId>springmcpserver</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>week19-dev-mcp-server</name>
+    <name>springmcpserver</name>
     <description>Developer Productivity MCP Server — all 5 MCP primitives + completions</description>
 
     <properties>
